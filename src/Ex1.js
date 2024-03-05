@@ -11,16 +11,17 @@
 import React from 'react'
 
 export const Ex1 = () => {
-    indice = 13,
-    soma = 0,
-    k = 0;
+    var indice = 13;
+    var soma = 0;
+    var k = 0;
 
     while (k < indice) {
         k = k+1;
         soma = soma +k;
-        console.log(soma);
     }
     return (
-        <div>{soma}</div>
+        <div>
+            Resultado Ex 1: {soma}
+        </div>
     )
 }
