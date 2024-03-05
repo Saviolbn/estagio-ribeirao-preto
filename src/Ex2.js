@@ -8,39 +8,37 @@
 import React, { useState } from 'react'
 
 export const Ex2 = () => {
-
+    const[inputValue, setInputValue] = useState(0)
     const calcSequence = (num) =>{
         var penultimo = 0, ultimo = 1;
         var atual;
         if (num <=2) {
             atual = num-1;
         } else {
-            for (var count = 3; count <= num; count++){
+            atual = 1
+            sequence.push(atual)
+            for (var count = 2; count <= num; count++){
                 atual = ultimo + penultimo;
                 penultimo = ultimo;
                 ultimo = atual;
-                console.log(atual);
-                setSequence ={...sequence,atual}
+                sequence.push(atual)
             }
             console.log(sequence)
         }
         return sequence
     }
-    let [sequence, setSequence] = useState('');
-    const [number,setNumber] = useState(0);
+    let [sequence, setSequence] = useState([]);
     const handleClick = () =>{
-        calcSequence(number)
-        console.log(sequence)
-    };
-    const handleChange = event => {
-        setNumber(event.target.value);
-    };
+        setSequence([]);
+        var newDiv = document.querySelector("#result")
+        newDiv.innerHTML = calcSequence(inputValue)
+    }
     return (
         <div>
             Ex2:
-            <input type="number" onChange={handleChange}></input>
+            <input type="number" value={inputValue} onChange={(event)=>{setInputValue(event.target.value)}}></input>
             <button onClick={handleClick}>Calcular</button>
-            <div>{sequence}</div>
+            <div id='result'></div>
         </div>
     )
 }
