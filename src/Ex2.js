@@ -19,7 +19,7 @@ export const Ex2 = () => {
                 atual = ultimo + penultimo;
                 penultimo = ultimo;
                 ultimo = atual;
-                console.log(atual)
+                console.log(atual);
                 setSequence ={...sequence,atual}
             }
             console.log(sequence)
