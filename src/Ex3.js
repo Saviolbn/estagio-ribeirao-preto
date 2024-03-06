@@ -21,12 +21,12 @@ export const Ex3 = () => {
         <div style={{width: 800, height:400,textAlign:'justify'}}>
             Ex3:
             <ul>
-            <li>A: Resposta 9/// 1-3 = 3-5 = 5-7 = 7-9</li>
-            <li>B: Resposta 128 /// 2/4 = 4/8 = 8/16...</li>
-            <li>C: Resposta 49(7^2) ///1 = 1^2, 4 = 2^2, 9 = 3^2...</li>
-            <li>D: Resposta 100    ///4 = 4(1^2), 16 = 4(2^2), 36 =4(3^2)...</li>
-            <li>E: Resposta 13, dado pela sequencia de Fibonacci</li>
-            <li>F: Resposta 200, todos os numeros começam com "dez..."</li> 
+                <li>A: Resposta 9/// 1-3 = 3-5 = 5-7 = 7-9</li>
+                <li>B: Resposta 128 /// 2/4 = 4/8 = 8/16...</li>
+                <li>C: Resposta 49(7^2) ///1 = 1^2, 4 = 2^2, 9 = 3^2...</li>
+                <li>D: Resposta 100    ///4 = 4(1^2), 16 = 4(2^2), 36 =4(3^2)...</li>
+                <li>E: Resposta 13, dado pela sequencia de Fibonacci</li>
+                <li>F: Resposta 200, todos os numeros começam com "d"</li> 
             </ul>
         </div>
     )

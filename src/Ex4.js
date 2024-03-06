@@ -13,10 +13,9 @@ import React from 'react'
 export const Ex4 = () => {
     return (
         <div style={{width: 1000, height:250,textAlign:'justify'}}>
-            Ex 4:<br></br>
-            nomeando interruptores A, B, C, associados respectivamente a lampadas X, Y, Z<br></br>
-            Ligar 2 lampadas e as memorizar como X e Y acesas a 2 interruptores, logo o unico apagado é o Z, e o interruptor C <br></br>
-
+            Ex 4:<br/>
+            nomeando interruptores A, B, C, associados respectivamente a lampadas X, Y, Z.<br/>
+            Ligar 2 lampadas e as memorizar como X e Y acesas a 2 interruptores, logo o unico apagado é o Z, e o interruptor C <br/>
             Agora retorno e apago uma delas, como C/Z ja foi intentificado, a que antes estava acesa é indentificada a A e a segunda a B
             </div>
     )

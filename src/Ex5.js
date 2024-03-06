@@ -7,20 +7,22 @@ export const Ex5 = () => {
     const reverter =(nome) =>{
         const arr =[...nome];
         let emon = "";
-
         while (arr.length) {
             emon = emon + arr.pop()
         }
     return emon
     }
+
     const handleClick = () =>{
         setInputValue(reverter(inputValue))
     }
     
     return (
         <div>Ex 5:
-            <input type='text' value={inputValue} onChange={(event)=>{setInputValue(event.target.value)}}></input>
+            <input type='text' value={inputValue} onChange={(event)=>
+                {setInputValue(event.target.value)}
+            }/>
             <button type='submit' onClick={handleClick}>Inverter</button>
-            </div>
+        </div>
     )
 }
