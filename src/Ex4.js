@@ -12,7 +12,7 @@ import React from 'react'
 
 export const Ex4 = () => {
     return (
-        <div style={{width: 1000, height:250,textAlign:'justify'}}>
+        <div style={{width: 1000, height:350,textAlign:'justify'}}>
             Ex 4:<br/>
             nomeando interruptores A, B, C, associados respectivamente a lampadas X, Y, Z.<br/>
             Ligar 2 lampadas e as memorizar como X e Y acesas a 2 interruptores, logo o unico apagado é o Z, e o interruptor C <br/>
