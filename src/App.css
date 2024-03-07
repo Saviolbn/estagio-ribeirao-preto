@@ -48,3 +48,11 @@ button {
 ul {
   list-style-type: none;
 }
+a{
+  text-decoration: none;
+  color: aliceblue;
+  width: 200px;
+  display: block;
+  padding-right: 16px;
+  padding-left: 16px;
+}
