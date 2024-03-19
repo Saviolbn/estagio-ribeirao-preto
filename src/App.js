@@ -18,10 +18,10 @@ function App() {
           <m.div
           // initial={{x:"100%"}} 
           // animate={{x:"0%"}}
-          initial={{opacity:0,x:"100%" }} 
+          initial={{opacity:0,x:"100%"}} 
           animate={{opacity:1,x:"0%"}}
-          transition={{duration:1}}
-        >
+          transition={{duration:1, ease:"easeOut",}}
+          >
             <Routes>
               <Route path="/" element={<Ex1></Ex1>} />
               <Route path="/Ex2" element={<Ex2></Ex2>} />
